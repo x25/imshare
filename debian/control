@@ -1,0 +1,13 @@
+Source: imshare
+Section: graphics
+Priority: optional
+Maintainer: x25 <job@x25.ru>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.5
+Homepage: https://github.com/x25/imshare
+
+Package: imshare
+Architecture: all
+Depends: curl, gnome-screenshot, notify-osd, xclip, ${misc:Depends}
+Description: Screen-Grabbing Tool
+ Instant grab the screen and share the image on the web.

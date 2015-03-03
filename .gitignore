@@ -1,0 +1,7 @@
+.pc/
+debian/files
+debian/imshare/
+debian/imshare.debhelper.log
+debian/imshare.substvars
+debian/patches/
+debian/tmp/

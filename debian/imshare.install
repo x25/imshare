@@ -1,0 +1,3 @@
+src/imshare.sh      /usr/bin
+src/imshare.desktop /usr/share/applications
+icons/imshare.png   /usr/share/pixmaps

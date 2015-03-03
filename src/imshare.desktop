@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=IMShare
+Version=1.0
+Comment=Screen-Grabbing tool
+Exec=imshare
+Terminal=false
+Type=Application
+Icon=imshare
+Categories=Utility;Graphics;
+StartupNotify=false
