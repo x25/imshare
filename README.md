@@ -2,15 +2,19 @@
 
 Screen capture tool for Ubuntu. Supports screen selection and upload images to imgur.com.
 
-Features
-----
-* Upload screen selection to imgur
-* Upload image files, usage: ``$ imshare [FILE1] .. [FILE123]``
+Features:
+
+* Screen selection capture
+* Uploading to imgur.com
+* Upload image files, usage: ``$ imshare [<filename> [...]]``
 * Copy link to clipboard
 * Desktop and sound notifications
-* History and deletion links are stored in ~/.imshare.log
+* History and deletion links are stored in ``~/.imshare.log``
 
-### Install
+Install
+----
+
+Download [imshare_1.0-1_all.deb](https://github.com/x25/imshare/releases/download/v1.0/imshare_1.0-1_all.deb).
 
 ```bash
 $ sudo apt-get install curl notify-osd xclip
@@ -28,7 +32,7 @@ $ sudo dpkg -i imshare_1.0-1_all.deb
 ### Create Hotkey
 
 1. Open System Settings, Keyboard, Shortcuts, Custom Shortcuts
-2. Click "+" button, fill "imshare" in the "Name" and "Command", click apply  
+2. Click "+" button, fill in the "Name" and "Command" value "imshare", click apply  
 3. Click "Disabled" and press "Ctrl+p" or another key combination
 
 ![](http://i.imgur.com/UtPDFmF.png)
